@@ -6,7 +6,7 @@ name: CD
 on:
   push:
     branches:
-    - main
+    - master
     - releases/*
 
 env:
