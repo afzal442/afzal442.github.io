@@ -6,11 +6,11 @@ name: Resume CI
 on:
   push:
     branches: 
-    - main 
+    - master
     - releases/*
   pull_request:
     branches: 
-    - main 
+    - master 
     - releases/*
 
 jobs:
