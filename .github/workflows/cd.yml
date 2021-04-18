@@ -18,7 +18,7 @@ jobs:
     name: Deploy to Dev test environment
     runs-on: ubuntu-latest
     environment: 
-      name: Dev-Test
+      name: DevTest
       url: https://${{ env.owner }}.${{ env.domain }}/${{ env.repo }}//
     env:
       repo: afzal442.github.io
